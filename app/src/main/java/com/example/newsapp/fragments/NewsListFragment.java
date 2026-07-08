@@ -30,9 +30,9 @@ public class NewsListFragment extends Fragment
         implements NewsAsyncTask.NewsCallback, NewsAdapter.OnItemClickListener {
 
      private static final String API_KEY =
-            "b76ab4ebd1ab4503b0f5ffe21f1f2aa5";
-    private static final String API_URL =
-            "https://newsapi.org/v2/top-headlines?country=us&pageSize=30&apiKey=" + API_KEY;
+        "e7ca6593f58f5701a38276c1345c60b1";
+private static final String API_URL =
+        "https://gnews.io/api/v4/top-headlines?category=general&lang=en&max=30&apikey=" + API_KEY;
 
     private RecyclerView     recyclerView;
     private NewsAdapter      adapter;
