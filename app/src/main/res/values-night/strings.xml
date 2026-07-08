@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daily News</string>
+    <string name="tab_news_list">News</string>
+    <string name="tab_news_detail">Details</string>
+    <string name="loading">Loading news…</string>
+    <string name="error_loading">Failed to load news.</string>
+    <string name="read_more">Read Full Article</string>
+    <string name="channel_name">News Notifications</string>
+    <string name="channel_description">Notifications for news loading status</string>
+</resources>
