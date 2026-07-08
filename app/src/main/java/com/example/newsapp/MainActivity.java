@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         } else if (id == R.id.menu_about) {
             Toast.makeText(this,
-                    "News App — Built with NewsAPI\nDeveloper: Your Name",
+                    "News App — Built with NewsAPI\nDeveloper: Sally Aiman ",
                     Toast.LENGTH_LONG).show();
             return true;
 
